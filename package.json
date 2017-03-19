@@ -1,6 +1,6 @@
 {
   "name": "newsfeed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fist node js application",
   "main": "index.js",
   "scripts": {
