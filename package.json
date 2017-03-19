@@ -1,0 +1,33 @@
+{
+  "name": "newsfeed",
+  "version": "1.0.0",
+  "description": "fist node js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "casperjs": "^1.1.1",
+    "colors": "^1.1.2",
+    "debug": "~2.2.0",
+    "ejs": "^2.5.1",
+    "express": "~4.13.1",
+    "jade": "^1.11.0",
+    "lodash": "^4.13.1",
+    "mongodb": "^2.1.18",
+    "url": "^0.11.0",
+    "request": "*"
+  },
+  "author": "Sharad Suryawanshi",
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharadraj/learnNode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sharadraj/learnNode/issues"
+  },
+  "homepage": "https://github.com/sharadraj/learnNode#readme"
+}

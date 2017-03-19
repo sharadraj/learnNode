@@ -1,0 +1,7 @@
+{
+	"name": "news feed dashboard",
+	"version": "1.0.0",
+	"description": "",
+	"workspace": "/home/sharad/Documents/learnNode",
+	"mongodb-url": "mongodb://localhost/news-feed"
+}
