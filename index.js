@@ -5,7 +5,7 @@ var index = express();
 
 /*rendering using jage*/
 index.set('views', path.join(__dirname, 'views'));
-index.set('view engine', 'jade');
+index.set('view engine', 'html');
 index.use(bodyParser.json()); 
 index.use(bodyParser.urlencoded({ extended: false }));
 
