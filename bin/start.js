@@ -1,11 +1,10 @@
 #!/usr/bin/env node
 /*global configurations of setup*/
 global.name='news dahsboard'
-console.log("System running in dev mode on port 8080...");
 global.config = require('../root-config/dev-config.json')  
 /*End of configurations setup*/
 
-var utils = require('/home/sharad/Documents/learnNode/src/utils.js');
+var utils = require('../src/utils.js');
 
 /*connecting with mongo db*/
 utils.isDBReady((err, dbflag) => {
@@ -20,6 +19,6 @@ var http = require('http');
 var app = require('../index.js');
 
 var server = http.createServer(app);
-
 server.listen(8080);
+console.log("System running in dev mode on port 8080...");
 

@@ -5,7 +5,7 @@ var index = express();
 
 /*rendering using jage*/
 index.set('views', path.join(__dirname, 'views'));
-index.set('view engine', 'html');
+index.set('view engine', 'ejs');
 index.use(bodyParser.json()); 
 index.use(bodyParser.urlencoded({ extended: false }));
 
@@ -16,11 +16,7 @@ index.use(express.static(path.join(__dirname, 'views')));
 
 
 var newsHpRouter = require('./routes/news-hp.js');
-var newsRouter = require('./routes/toi-news.js');
-
-
 index.use("/", newsHpRouter);
-index.use("/api/v1/news", newsRouter);
 
 
 module.exports = index;
